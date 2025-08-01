@@ -1,0 +1,35 @@
+{
+    "mapping": {
+        "ggl": "1",
+        "google": "1",
+        "yt": "2",
+        "youtube": "2",
+        "gh": "3",
+        "gl": "4",
+        "github": "3",
+        "wikipedia": "5",
+        "wkp": "5",
+        "reuters": "6",
+        "rtrs": "6"
+    },
+    "matchers": {
+        "1": {
+            "url": "www.google.com"
+        },
+        "2": {
+            "url": "www.youtube.com"
+        },
+        "3": {
+            "url": "www.github.com"
+        },
+        "4": {
+            "url": "www.gitlab.com"
+        },
+        "5": {
+            "url": "www.wikipedia.org"
+        },
+        "6": {
+            "url": "www.reuters.com"
+        }
+    }
+}
