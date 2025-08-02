@@ -75,3 +75,23 @@ function aeolusp() {
     popd >> /dev/null
 }
 ```
+
+#### Usage as **bash** or **zsh** after config explained above is done
+
+##### To go to a url
+
+```bash
+aeolus github
+```
+
+##### To print the matched url
+
+```bash
+aeolusp github
+```
+
+##### To add a url+term to match
+
+```bash
+aeolusa -t github -u www.github.com
+```
