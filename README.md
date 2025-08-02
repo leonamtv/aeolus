@@ -13,6 +13,8 @@
 
 This project is a script that takes a term, matches it with a url defined in the json database in the resources folder and takes you to that url so you don't have to remember hundreds of urls.
 
+![Aeolus Diagram](./assets/diagram_aeolus.png)
+
 ## Usage
 
 ### As a standalone python program
