@@ -1,19 +1,14 @@
 # ***a e o l u s***
 
-```
-
-                                                                                                     
-         .8.          8 8888888888       ,o888888o.     8 8888         8 8888      88    d888888o.   
-        .888.         8 8888          . 8888     `88.   8 8888         8 8888      88  .`8888:' `88. 
-       :88888.        8 8888         ,8 8888       `8b  8 8888         8 8888      88  8.`8888.   Y8 
-      . `88888.       8 8888         88 8888        `8b 8 8888         8 8888      88  `8.`8888.     
-     .8. `88888.      8 888888888888 88 8888         88 8 8888         8 8888      88   `8.`8888.    
-    .8`8. `88888.     8 8888         88 8888         88 8 8888         8 8888      88    `8.`8888.   
-   .8' `8. `88888.    8 8888         88 8888        ,8P 8 8888         8 8888      88     `8.`8888.  
-  .8'   `8. `88888.   8 8888         `8 8888       ,8P  8 8888         ` 8888     ,8P 8b   `8.`8888. 
- .888888888. `88888.  8 8888          ` 8888     ,88'   8 8888           8888   ,d8P  `8b.  ;8.`8888 
-.8'       `8. `88888. 8 888888888888     `8888888P'     8 888888888888    `Y88888P'    `Y8888P ,88P' 
-
+```                                                      
+                              ,,                      
+                            `7MM                      
+                              MM                      
+ ,6"Yb.   .gP"Ya   ,pW"Wq.    MM  `7MM  `7MM  ,pP"Ybd 
+8)   MM  ,M'   Yb 6W'   `Wb   MM    MM    MM  8I   `" 
+ ,pm9MM  8M"""""" 8M     M8   MM    MM    MM  `YMMMa. 
+8M   MM  YM.    , YA.   ,A9   MM    MM    MM  L.   I8 
+`Moo9^Yo. `Mbmmd'  `Ybmd9'  .JMML.  `Mbod"YML.M9mmmP' 
 ```
 
 This project is a script that takes a term, matches it with a url defined in the json database in the resources folder and takes you to that url so you don't have to remember hundreds of urls.
