@@ -5,12 +5,11 @@ import webbrowser
 from config.config import MAPPING_KEY, MATCHER_KEY, PROTOCOL_PREFIX, get_mapper_filepath
 
 
-def handle_matching(args):
+def handle_matching(matchers):
     """
     This method handles matching between a term (i.e. matcher) and an url, both being
     provided as command line arguments.
     """
-    matchers = args.matcher
 
     with open(get_mapper_filepath(), 'r') as mapper_file:
         mapper = json.loads(mapper_file.read())

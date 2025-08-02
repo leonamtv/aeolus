@@ -95,3 +95,27 @@ aeolusp github
 ```bash
 aeolusa -t github -u www.github.com
 ```
+
+### Bulk linking
+
+First, prepare a `.csv` file in the format of the example below:
+
+```csv
+<term>,<url you want to link>
+<other term>,<other url you want to link>
+...
+```
+
+For instance:
+
+```csv
+stkovf,www.stackoverflow.com
+github,www.github.com
+...
+```
+
+To run the bulk linking, execute the command below in the folder you cloned this project into:
+
+```bash
+python bulk_link.py -f <path to the csv file you created in the step above>
+```
