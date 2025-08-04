@@ -9,7 +9,7 @@ def main():
     args = parse_arguments()
 
     if args.matcher:
-        handle_matching(args.matcher)
+        handle_matching(args.matcher, args.print_details, args.go_to)
 
     if args.add_url:
         handle_linking(args.add_term, args.add_url)

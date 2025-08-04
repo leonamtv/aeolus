@@ -5,7 +5,7 @@ import webbrowser
 from config.config import MAPPING_KEY, MATCHER_KEY, PROTOCOL_PREFIX, get_mapper_filepath
 
 
-def handle_matching(matchers):
+def handle_matching(matchers, print_url: False, goto_url: False):
     """
     This method handles matching between a term (i.e. matcher) and an url, both being
     provided as command line arguments.
@@ -25,10 +25,10 @@ def handle_matching(matchers):
             raise Exception(f"Term '{matchers[0]}' didn't match with any links")
 
         for matched_object in matched_objects:
-            if args.print_details:
+            if print_url:
                 print(matched_object)
 
-            if args.go_to:
+            if goto_url:
                 try:
                     webbrowser.open_new_tab(PROTOCOL_PREFIX + matched_object['url'])
                 except socket.error as e:
